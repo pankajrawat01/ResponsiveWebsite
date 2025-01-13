@@ -1,0 +1,37 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 60vh;
+  background: url('https://placehold.co/600x400') no-repeat center center/cover;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.banner h1 {
+  font-size: 3rem;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  cursor: pointer;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+  cursor: auto;
+}
+
+.tab-content {
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
+}
