@@ -5,9 +5,14 @@ body {
   padding: 0;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
 .banner {
   height: 60vh;
-  background: url('https://placehold.co/600x400') no-repeat center center/cover;
+  background: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2t5c2NyYXBlcnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
